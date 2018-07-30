@@ -211,7 +211,6 @@ const argv = yargs
     });
     const table = new Table({
       head: ["name", "version", "quick install"],
-      colWidths: [20, 10, 40]
     });
     imps.Imp.map(i => {
       const { name } = i.Implementation as ImplementationType;
