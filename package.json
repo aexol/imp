@@ -1,0 +1,34 @@
+{
+  "name": "imp-manager",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^10.1.2",
+    "@types/node-fetch": "^2.1.1",
+    "@types/yargs": "^11.0.0",
+    "grunt": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.19",
+    "typescript": "^2.8.3"
+  },
+  "scripts": {
+    "build": "grunt",
+    "dev": "grunt watch"
+  },
+  "bin": {
+    "imp": "./bin/index.js"
+  },
+  "author": "Aexol <aexol@aexol.com> (http://aexol.com)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cli-table": "^0.3.1",
+    "node-fetch": "^2.1.2",
+    "yargs": "^11.0.0"
+  }
+}
